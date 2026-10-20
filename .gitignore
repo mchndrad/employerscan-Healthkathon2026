@@ -74,3 +74,15 @@ pnpm-debug.log*
 # === MISC ===
 .cache/
 .parcel-cache/
+
+# === AI AGENT FILES (local only, DON'T PUSH) ===
+.claude/
+.cursor/
+.aider*
+.windsurf/
+.continue/
+.github/copilot-instructions.md
+AGENTS.md
+**/AGENTS.md
+.anthropic/
+.openai/

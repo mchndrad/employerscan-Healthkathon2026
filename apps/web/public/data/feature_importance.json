@@ -1,0 +1,286 @@
+{
+  "generated_at": "2026-10-29T12:56:35.449191",
+  "total_features": 40,
+  "top_features": [
+    {
+      "rank": 1,
+      "feature": "jml_bulan_tunggak",
+      "importance_pct": 30.04800033569336,
+      "mean_abs_shap": 1.29655,
+      "category": "other"
+    },
+    {
+      "rank": 2,
+      "feature": "ratio_karyawan_td_vs_aktual",
+      "importance_pct": 11.954999923706055,
+      "mean_abs_shap": 0.51585,
+      "category": "ratio"
+    },
+    {
+      "rank": 3,
+      "feature": "selisih_upah_vs_ump",
+      "importance_pct": 9.972000122070312,
+      "mean_abs_shap": 0.4303,
+      "category": "other"
+    },
+    {
+      "rank": 4,
+      "feature": "ratio_bayar_total",
+      "importance_pct": 4.993000030517578,
+      "mean_abs_shap": 0.21544,
+      "category": "ratio"
+    },
+    {
+      "rank": 5,
+      "feature": "umur_bu_tahun",
+      "importance_pct": 4.247000217437744,
+      "mean_abs_shap": 0.18324,
+      "category": "other"
+    },
+    {
+      "rank": 6,
+      "feature": "std_rata_upah",
+      "importance_pct": 3.61299991607666,
+      "mean_abs_shap": 0.15591,
+      "category": "other"
+    },
+    {
+      "rank": 7,
+      "feature": "jumlah_karyawan_terdaftar",
+      "importance_pct": 3.444999933242798,
+      "mean_abs_shap": 0.14866,
+      "category": "size"
+    },
+    {
+      "rank": 8,
+      "feature": "total_tunggakan_12bulan",
+      "importance_pct": 3.443000078201294,
+      "mean_abs_shap": 0.14857,
+      "category": "temporal"
+    },
+    {
+      "rank": 9,
+      "feature": "tren_tunggakan_slope",
+      "importance_pct": 3.4260001182556152,
+      "mean_abs_shap": 0.14782,
+      "category": "temporal"
+    },
+    {
+      "rank": 10,
+      "feature": "ratio_upah_vs_ump",
+      "importance_pct": 3.072999954223633,
+      "mean_abs_shap": 0.13261,
+      "category": "ratio"
+    },
+    {
+      "rank": 11,
+      "feature": "max_tunggakan",
+      "importance_pct": 2.996000051498413,
+      "mean_abs_shap": 0.12927,
+      "category": "other"
+    },
+    {
+      "rank": 12,
+      "feature": "avg_iuran_wajib",
+      "importance_pct": 2.7669999599456787,
+      "mean_abs_shap": 0.11937,
+      "category": "other"
+    },
+    {
+      "rank": 13,
+      "feature": "avg_rata_upah",
+      "importance_pct": 2.677000045776367,
+      "mean_abs_shap": 0.11552,
+      "category": "other"
+    },
+    {
+      "rank": 14,
+      "feature": "jumlah_karyawan_aktual",
+      "importance_pct": 2.4860000610351562,
+      "mean_abs_shap": 0.10728,
+      "category": "size"
+    },
+    {
+      "rank": 15,
+      "feature": "jml_anomaly_12bulan",
+      "importance_pct": 1.0049999952316284,
+      "mean_abs_shap": 0.04338,
+      "category": "temporal"
+    },
+    {
+      "rank": 16,
+      "feature": "is_jawa",
+      "importance_pct": 0.8399999737739563,
+      "mean_abs_shap": 0.03623,
+      "category": "geographic"
+    },
+    {
+      "rank": 17,
+      "feature": "sek_Teknologi Informasi",
+      "importance_pct": 0.7269999980926514,
+      "mean_abs_shap": 0.03137,
+      "category": "sektor"
+    },
+    {
+      "rank": 18,
+      "feature": "ump_provinsi",
+      "importance_pct": 0.7260000109672546,
+      "mean_abs_shap": 0.03132,
+      "category": "geographic"
+    },
+    {
+      "rank": 19,
+      "feature": "bb_Firma",
+      "importance_pct": 0.656000018119812,
+      "mean_abs_shap": 0.0283,
+      "category": "bentuk"
+    },
+    {
+      "rank": 20,
+      "feature": "sek_Kesehatan",
+      "importance_pct": 0.6039999723434448,
+      "mean_abs_shap": 0.02607,
+      "category": "sektor"
+    },
+    {
+      "rank": 21,
+      "feature": "log_jumlah_karyawan",
+      "importance_pct": 0.5860000252723694,
+      "mean_abs_shap": 0.02528,
+      "category": "size"
+    },
+    {
+      "rank": 22,
+      "feature": "bb_Yayasan",
+      "importance_pct": 0.5600000023841858,
+      "mean_abs_shap": 0.02416,
+      "category": "bentuk"
+    },
+    {
+      "rank": 23,
+      "feature": "sek_Jasa Keuangan",
+      "importance_pct": 0.5479999780654907,
+      "mean_abs_shap": 0.02363,
+      "category": "sektor"
+    },
+    {
+      "rank": 24,
+      "feature": "sek_Makanan & Minuman",
+      "importance_pct": 0.5370000004768372,
+      "mean_abs_shap": 0.02315,
+      "category": "sektor"
+    },
+    {
+      "rank": 25,
+      "feature": "sek_Manufaktur Tekstil",
+      "importance_pct": 0.5329999923706055,
+      "mean_abs_shap": 0.023,
+      "category": "sektor"
+    },
+    {
+      "rank": 26,
+      "feature": "bb_Koperasi",
+      "importance_pct": 0.47699999809265137,
+      "mean_abs_shap": 0.02059,
+      "category": "bentuk"
+    },
+    {
+      "rank": 27,
+      "feature": "bb_PT",
+      "importance_pct": 0.3880000114440918,
+      "mean_abs_shap": 0.01676,
+      "category": "bentuk"
+    },
+    {
+      "rank": 28,
+      "feature": "sek_Pariwisata & Perhotelan",
+      "importance_pct": 0.36899998784065247,
+      "mean_abs_shap": 0.01591,
+      "category": "sektor"
+    },
+    {
+      "rank": 29,
+      "feature": "sek_Pendidikan",
+      "importance_pct": 0.28600001335144043,
+      "mean_abs_shap": 0.01232,
+      "category": "sektor"
+    },
+    {
+      "rank": 30,
+      "feature": "sek_Logistik & Transportasi",
+      "importance_pct": 0.2540000081062317,
+      "mean_abs_shap": 0.01095,
+      "category": "sektor"
+    },
+    {
+      "rank": 31,
+      "feature": "sek_Media & Kreatif",
+      "importance_pct": 0.25200000405311584,
+      "mean_abs_shap": 0.01088,
+      "category": "sektor"
+    },
+    {
+      "rank": 32,
+      "feature": "sek_Agribisnis",
+      "importance_pct": 0.24699999392032623,
+      "mean_abs_shap": 0.01067,
+      "category": "sektor"
+    },
+    {
+      "rank": 33,
+      "feature": "bb_CV",
+      "importance_pct": 0.2290000021457672,
+      "mean_abs_shap": 0.00989,
+      "category": "bentuk"
+    },
+    {
+      "rank": 34,
+      "feature": "sek_Energi",
+      "importance_pct": 0.22200000286102295,
+      "mean_abs_shap": 0.0096,
+      "category": "sektor"
+    },
+    {
+      "rank": 35,
+      "feature": "bb_UD",
+      "importance_pct": 0.2070000022649765,
+      "mean_abs_shap": 0.00894,
+      "category": "bentuk"
+    },
+    {
+      "rank": 36,
+      "feature": "sek_Konstruksi",
+      "importance_pct": 0.1809999942779541,
+      "mean_abs_shap": 0.00783,
+      "category": "sektor"
+    },
+    {
+      "rank": 37,
+      "feature": "sek_Perdagangan Retail",
+      "importance_pct": 0.16899999976158142,
+      "mean_abs_shap": 0.00728,
+      "category": "sektor"
+    },
+    {
+      "rank": 38,
+      "feature": "sek_Pertambangan",
+      "importance_pct": 0.11999999731779099,
+      "mean_abs_shap": 0.00519,
+      "category": "sektor"
+    },
+    {
+      "rank": 39,
+      "feature": "sek_Properti",
+      "importance_pct": 0.0820000022649765,
+      "mean_abs_shap": 0.00355,
+      "category": "sektor"
+    },
+    {
+      "rank": 40,
+      "feature": "is_dki",
+      "importance_pct": 0.052000001072883606,
+      "mean_abs_shap": 0.00224,
+      "category": "geographic"
+    }
+  ]
+}

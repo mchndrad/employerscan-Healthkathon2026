@@ -1,25 +1,46 @@
 {
-  "name": "employerscan-monorepo",
-  "version": "1.0.0",
+  "name": "employerscan",
+  "version": "0.1.0",
   "private": true,
-  "description": "EmployerScan - BPJS Kesehatan Compliance Intelligence Platform",
-  "author": "NGOPI DIPENGKOLAN - Muhammad Chandra Darmawan",
-  "license": "UNLICENSED",
+  "description": "EmployerScan - AI-powered BPJS Kesehatan compliance intelligence platform. Healthkathon 2026.",
   "scripts": {
-    "dev": "turbo dev",
-    "build": "turbo build",
-    "lint": "turbo lint",
-    "test": "turbo test",
-    "clean": "turbo clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+    "dev": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev:all": "pnpm --parallel --filter './apps/*' dev",
+    "build": "pnpm --filter web build",
+    "build:all": "pnpm --recursive --filter './apps/*' build",
+    "lint": "pnpm --recursive --filter './apps/*' lint",
+    "lint:fix": "pnpm --recursive --filter './apps/*' lint --fix",
+    "typecheck": "pnpm --recursive --filter './apps/*' typecheck",
+    "clean": "pnpm --recursive exec rm -rf .next .turbo dist node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "turbo": "^2.3.0",
-    "prettier": "^3.4.0",
-    "typescript": "^5.7.0"
+    "@types/node": "^22.10.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
   },
-  "packageManager": "pnpm@9.15.0",
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.3.0",
+      "@types/react-dom": "19.3.0",
+      "react": "19.3.0",
+      "react-dom": "19.3.0"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ],
+      "allowedVersions": {
+        "react": "19",
+        "react-dom": "19"
+      }
+    }
+  },
   "engines": {
-    "node": ">=20"
-  }
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "packageManager": "pnpm@9.15.0"
 }

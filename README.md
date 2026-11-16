@@ -442,4 +442,4 @@ Terima kasih kepada komunitas open source atas tools yang digunakan pada proyek 
 
 ---
 
-Dibuat di Jakarta untuk Program Jaminan Kesehatan Nasional BPJS Kesehatan.
+Dibuat di Bekasi untuk Program Jaminan Kesehatan Nasional BPJS Kesehatan.
